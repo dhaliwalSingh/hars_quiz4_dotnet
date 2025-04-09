@@ -15,7 +15,7 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        ViewBag.DatabaseStatus = "Database access has already been done on April 9, 2025 by Harshbir.";
+        ViewBag.DatabaseStatus = "Database access has already been done on April 1, 2025 by Harshbir.";
         return View();
     }
 
