@@ -1,0 +1,12 @@
+# Ignore Visual Studio and build folders
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.swp
+*.dbmdl
+*.db
+*.log
+*.vspscc
+*.vssscc
