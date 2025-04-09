@@ -10,10 +10,10 @@ steps:
     packageType: 'sdk'
     version: '8.0.x'
 
-- script: dotnet build hars_quiz4_dotnet.sln
+- script: dotnet build hars_quiz4_dotnet/hars_quiz4_dotnet.csproj
   displayName: 'Build project'
 
-- script: dotnet publish -c Release -o $(Build.ArtifactStagingDirectory)
+- script: dotnet publish hars_quiz4_dotnet/hars_quiz4_dotnet.csproj -c Release -o $(Build.ArtifactStagingDirectory)
   displayName: 'Publish project'
 
 - task: PublishBuildArtifacts@1
